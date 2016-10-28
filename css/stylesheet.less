@@ -66,4 +66,25 @@ body {
 		.vertical-align;
 	}
 
+	section#works-list {
+		margin-top: @margin;
+		.clearfix;
+	}
+
+	div.works {
+		position: relative;
+		margin: 25px 0;
+		overflow: hidden;
+		cursor: pointer;
+
+		div.works-caption {
+			.works-caption-overlay;
+			.vertical-align;
+			text-align: center;
+			&:hover {
+				opacity: 0.5;
+			}
+		}
+	}
+
 }
